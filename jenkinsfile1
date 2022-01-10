@@ -1,0 +1,8 @@
+stages
+      {
+        stage('checkout'){ 
+            steps{
+               git 'https://github.com/Sylvagit/production-ready-apis-sample-2.2.git'
+            }
+        }
+      }
